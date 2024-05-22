@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+
+/* ? ************************** Sign In Secreen ****************************/
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* ? ************************** Chat Secreen ****************************/
+.msg-badge-sent,
+.msg-badge-received {
+  max-width: 85%;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: normal;
+}
+
+.msg-badge-sent {
+  border-top-right-radius: 0px;
+}
+
+.msg-badge-received {
+  border-top-left-radius: 0px;
+}
+
+.sidebar-section {
+  width: 4rem;
+  height: 100vh;
+}
+
+.chat-section {
+  width: calc(100% - 4rem);
+  max-height: 100vh;
+}
+
+.app-logo {
+  width: 35px;
+  height: 30px;
+}
+
+.current-user-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  .sidebar-section {
+    width: 280px;
+  }
+
+  .chat-section {
+    width: calc(100% - 280px);
+  }
+
+  .app-logo {
+    width: 60px;
+    height: 50px;
+  }
+
+  .current-user-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .border-top-md-none {
+    border-top: none !important;
+  }
+
+  .border-bottom-md-none {
+    border-bottom: none !important;
+  }
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.send-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 16px;
+}
+
+.message-container {
+  padding-right: 42px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.message-container:focus-within {
+  border-color: #86b7fe !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+#message-textarea {
+  display: block;
+  box-sizing: border-box;
+  outline: none;
+  padding: 6px 12px;
+  overflow: hidden;
+  resize: none;
+  max-height: 150px;
+}
