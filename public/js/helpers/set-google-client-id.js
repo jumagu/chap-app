@@ -1,6 +1,6 @@
 let url = window.location.hostname.includes("localhost")
   ? "http://localhost:3000/api/env/google-client-id"
-  : "https://chat-app.onrender.com/api/env/google-client-id";
+  : "https://chap-app-mgxm.onrender.com/api/env/google-client-id";
 
 const gIdOnload = document.getElementById("g_id_onload");
 

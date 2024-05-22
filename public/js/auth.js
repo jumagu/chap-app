@@ -1,6 +1,6 @@
 url = window.location.hostname.includes("localhost")
   ? "http://localhost:3000/api/auth/"
-  : "https://chat-app.onrender.com/api/auth/";
+  : "https://chap-app-mgxm.onrender.com/api/auth/";
 
 const signInform = document.querySelector("form");
 const emailInput = document.getElementById("email");

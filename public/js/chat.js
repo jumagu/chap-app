@@ -1,6 +1,6 @@
 const url = window.location.hostname.includes("localhost")
   ? "http://localhost:3000/api/auth/"
-  : "https://chat-app.onrender.com/api/auth/";
+  : "https://chap-app-mgxm.onrender.com/api/auth/";
 
 let user = null;
 let socket = null;
